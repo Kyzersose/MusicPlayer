@@ -38,24 +38,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
             <TextView
+                android:id="@+id/recent_example_4"
                 style="@style/listStyle"
                 android:text="@string/recent_activity_string"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
             <TextView
+                android:id="@+id/recent_example_5"
                 style="@style/listStyle"
                 android:text="@string/recent_activity_string"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
             <TextView
+                android:id="@+id/recent_example_6"
                 style="@style/listStyle"
                 android:text="@string/recent_activity_string"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
             <TextView
+                android:id="@+id/recent_example_7"
                 style="@style/listStyle"
                 android:text="@string/recent_activity_string"/>
 
