@@ -29,12 +29,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        TextView playlistsView = (TextView) findViewById(R.id.playlists_textview);
-//        playlistsView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(MainActivity.this, PlaylistActivity.class));
-//            }
-//        });
+        TextView playlistsView = (TextView) findViewById(R.id.playlists_textview);
+        playlistsView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, PlaylistActivity.class));
+            }
+        });
     }
 }
