@@ -15,23 +15,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ArtistActivity"
+        <activity
+            android:name=".ArtistActivity"
             android:label="@string/artists_name"
-            android:theme="@style/ArtistTheme"/>
-
-        <activity android:name=".SongsActivity"
+            android:theme="@style/ArtistTheme" />
+        <activity
+            android:name=".SongsActivity"
             android:label="@string/songs_name"
-            android:theme="@style/SongsTheme"/>
-
-        <activity android:name=".PlaylistActivity"
+            android:theme="@style/SongsTheme" />
+        <activity
+            android:name=".PlaylistActivity"
             android:label="@string/playlists_name"
-            android:theme="@style/PlaylistsTheme"/>
-
-        <activity android:name=".PlayActivity"
+            android:theme="@style/PlaylistsTheme" />
+        <activity
+            android:name=".PlayActivity"
             android:label="MusicPlayer"
-            android:theme="@style/AppTheme">
-
-        </activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SearchActivity"></activity>
     </application>
 
 </manifest>

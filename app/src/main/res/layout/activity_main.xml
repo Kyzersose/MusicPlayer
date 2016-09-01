@@ -102,8 +102,9 @@
         <TextView
             android:id="@+id/search_textview"
             style="@style/optionsStyle"
+            android:text="@string/search_string"
             android:background="@color/recent_color"
-            android:text="@string/search_string"/>
+            />
 
     </LinearLayout>
 
