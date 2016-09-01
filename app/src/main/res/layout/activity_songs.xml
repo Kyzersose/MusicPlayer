@@ -16,88 +16,241 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal">
+
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="@string/content_title_sting"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:id="@+id/song_choice_view1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/content_artist" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal">
+
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="@string/content_title_sting"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:id="@+id/song_choice_view2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/content_artist" />
+                </LinearLayout>
+
+
+            </LinearLayout>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal">
+
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="@string/content_title_sting"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:id="@+id/song_choice_view3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/content_artist" />
+                </LinearLayout>
+
+
+            </LinearLayout>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal">
+
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="@string/content_title_sting"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:id="@+id/song_choice_view4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/content_artist" />
+                </LinearLayout>
+
+
+            </LinearLayout>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal">
+
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="@string/content_title_sting"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:id="@+id/song_choice_view5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/content_artist" />
+                </LinearLayout>
+
+
+            </LinearLayout>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal">
+
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="@string/content_title_sting"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:id="@+id/song_choice_view6" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/content_artist" />
+                </LinearLayout>
+
+
+            </LinearLayout>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal">
+
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/song_choice_view7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="@string/content_title_sting"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/content_artist" />
+                </LinearLayout>
+
+
+            </LinearLayout>
 
         </LinearLayout>
 
-
-
-
-
     </ScrollView>
-    <!--Menu Options Vertical Layout-->
-    <LinearLayout
-        android:layout_width="96dp"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-        <TextView
-            android:id="@+id/artist_textview"
-            style="@style/optionsStyle"
-            android:background="@color/artists_color"
-            android:text="@string/artists_name"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"/>
-        <TextView
-            android:id="@+id/songs_textview"
-            style="@style/optionsStyle"
-            android:background="@color/songs_color"
-            android:text="@string/songs_name"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"/>
-        <TextView
-            android:id="@+id/playlists_textview"
-            style="@style/optionsStyle"
-            android:background="@color/playlists_color"
-            android:text="@string/playlists_name"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"/>
-        <TextView
-            android:id="@+id/recent_textview"
-            style="@style/optionsStyle"
-            android:background="@color/recent_color"
-            android:text="@string/recent_name"/>
-
-    </LinearLayout>
 
 </LinearLayout>

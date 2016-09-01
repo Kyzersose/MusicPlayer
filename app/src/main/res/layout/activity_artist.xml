@@ -10,71 +10,213 @@
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:orientation="vertical">
-
+        android:orientation="vertical"
+        android:layout_weight="1">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal"
+                android:background="@color/icons">
 
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity" />
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/artists_list1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/content_artist"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp" />
+                android:layout_height="1dp"/>
 
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal"
+                android:background="@color/icons">
+
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/artists_list2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/content_artist"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal"
+                android:background="@color/icons">
+
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/content_artist"
+                        android:textStyle="bold"
+                        android:id="@+id/artist_list3" />
+                </LinearLayout>
+
+
+            </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp" />
+                android:layout_height="1dp"/>
 
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal"
+                android:background="@color/icons">
+
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/content_artist"
+                        android:textStyle="bold"
+                        android:id="@+id/artist_list4" />
+                </LinearLayout>
+
+
+            </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp" />
+                android:layout_height="1dp"/>
 
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal"
+                android:background="@color/icons">
+
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/content_artist"
+                        android:textStyle="bold"
+                        android:id="@+id/artist_list5" />
+                </LinearLayout>
+
+
+            </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp" />
+                android:layout_height="1dp"/>
 
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:orientation="horizontal"
+                android:background="@color/icons">
+
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/content_artist"
+                        android:textStyle="bold"
+                        android:id="@+id/artist_list6" />
+                </LinearLayout>
+
+
+            </LinearLayout>
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp" />
+                android:layout_height="1dp"/>
 
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity" />
-
-            <View
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="1dp" />
+                android:layout_height="96dp"
+                android:orientation="horizontal"
+                android:background="@color/icons">
 
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity" />
+                <TextView style="@style/contentAryStyle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/artist_list7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/content_artist"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
 
         </LinearLayout>
 
-
     </ScrollView>
-    <!--Menu Options Vertical Layout-->
 
 </LinearLayout>
