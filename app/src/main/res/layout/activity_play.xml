@@ -40,15 +40,23 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:layout_marginLeft="16dp"
         android:background="@color/icons"
-        android:gravity="center"
-        android:text="@string/content_art_string" />
+        android:gravity="center_vertical"
+        android:text="I would need to use a Content Resolver to query the device for local content. Then send data to a CursorLoader that would place the objects in a ListView. The media buttons below rely on Android's MediaPlayer API."
+        android:textSize="24sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="72dp"
         android:background="@color/recent_color"
         android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+
+            />
 
 
     </LinearLayout>
