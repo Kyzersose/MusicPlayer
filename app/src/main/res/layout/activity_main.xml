@@ -99,7 +99,7 @@
             android:id="@+id/search_textview"
             style="@style/optionsStyle"
             android:background="@color/recent_color"
-            android:text="@string/search_name"/>
+            android:text="@string/search_string"/>
 
     </LinearLayout>
 

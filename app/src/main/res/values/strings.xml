@@ -4,4 +4,6 @@
     <string name="artists_name">Artists</string>
     <string name="playlists_name">Playlists</string>
     <string name="songs_name">Songs</string>
+    <string name="search_string">Search</string>
+    <string name="recent_activity_string">Recent Example Activity</string>
 </resources>
