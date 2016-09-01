@@ -17,44 +17,47 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
+                android:id="@+id/recent_example_1"
                 style="@style/listStyle"
-                android:text="Example Activity"/>
+                android:text="@string/recent_activity_string"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <TextView
+                android:id="@+id/recent_example_2"
+                style="@style/listStyle"
+                android:text="@string/recent_activity_string"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <TextView
+                android:id="@+id/recent_example_3"
+                style="@style/listStyle"
+                android:text="@string/recent_activity_string"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
             <TextView
                 style="@style/listStyle"
-                android:text="Example Activity"/>
+                android:text="@string/recent_activity_string"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
             <TextView
                 style="@style/listStyle"
-                android:text="Example Activity"/>
+                android:text="@string/recent_activity_string"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
             <TextView
                 style="@style/listStyle"
-                android:text="Example Activity"/>
+                android:text="@string/recent_activity_string"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"/>
             <TextView
                 style="@style/listStyle"
-                android:text="Example Activity"/>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"/>
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity"/>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"/>
-            <TextView
-                style="@style/listStyle"
-                android:text="Example Activity"/>
+                android:text="@string/recent_activity_string"/>
 
         </LinearLayout>
 
@@ -93,10 +96,10 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"/>
         <TextView
-            android:id="@+id/recent_textview"
+            android:id="@+id/search_textview"
             style="@style/optionsStyle"
             android:background="@color/recent_color"
-            android:text="@string/recent_name"/>
+            android:text="@string/search_name"/>
 
     </LinearLayout>
 
