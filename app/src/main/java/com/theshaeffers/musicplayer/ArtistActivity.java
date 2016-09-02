@@ -13,6 +13,8 @@ public class ArtistActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artist);
 
+        //OnclickListener for first listed item
+        //This should be created with a Content Resolver and ListView
         TextView artistView1 = (TextView) findViewById(R.id.artists_list1);
         artistView1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -21,6 +23,8 @@ public class ArtistActivity extends AppCompatActivity {
             }
         });
 
+        //OnclickListener for 2nd listed item
+        //This should be created with a Content Resolver and ListView
         TextView artistView2 = (TextView) findViewById(R.id.artists_list2);
         artistView2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,6 +33,8 @@ public class ArtistActivity extends AppCompatActivity {
             }
         });
 
+        //OnclickListener for 3rd listed item
+        //This should be created with a Content Resolver and ListView
         TextView artistView3 = (TextView) findViewById(R.id.artist_list3);
         artistView3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,6 +43,9 @@ public class ArtistActivity extends AppCompatActivity {
             }
         });
 
+
+        //OnclickListener for 4th listed item
+        //This should be created with a Content Resolver and ListView
         TextView artistView4 = (TextView) findViewById(R.id.artist_list4);
         artistView4.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +54,9 @@ public class ArtistActivity extends AppCompatActivity {
             }
         });
 
+
+        //OnclickListener for 5th listed item
+        //This should be created with a Content Resolver and ListView
         TextView artistView5 = (TextView) findViewById(R.id.artist_list5);
         artistView5.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +65,8 @@ public class ArtistActivity extends AppCompatActivity {
             }
         });
 
+        //OnclickListener for 6th listed item
+        //This should be created with a Content Resolver and ListView
         TextView artistView6 = (TextView) findViewById(R.id.artist_list6);
         artistView6.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,6 +75,9 @@ public class ArtistActivity extends AppCompatActivity {
             }
         });
 
+
+        //OnclickListener for 7th listed item
+        //This should be created with a Content Resolver and ListView
         TextView artistView7 = (TextView) findViewById(R.id.artist_list7);
         artistView7.setOnClickListener(new View.OnClickListener() {
             @Override

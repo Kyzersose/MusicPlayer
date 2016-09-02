@@ -13,6 +13,9 @@ public class SongsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_songs);
 
+        //OnclickListeners for fake song list
+        //each changes to the PlayActivity
+        //TODO research Content Resolver, Adapters, and ListView
         TextView songsView1 = (TextView) findViewById(R.id.song_choice_view1);
         songsView1.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -10,5 +10,8 @@
     <string name="content_title_sting">Title</string>
     <string name="content_artist">Content Artist</string>
     <string name="playlist_name_string">Example Playlist</string>
+    <string name="implementation_plan_string">I would need to use a Content Resolver to query the device for local content. Then send data to a CursorLoader that would place the objects in a ListView. The media buttons below rely on Android\'s MediaPlayer API.</string>
+    <string name="search_explanation">This will take the users input and search via data pulled from the Cursor Resolver. The results will be diplayed in a ListView.</string>
+    <string name="search_hint">Search for a Song, Artist, or Playlist</string>
 
 </resources>

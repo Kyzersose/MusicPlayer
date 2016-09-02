@@ -10,8 +10,9 @@
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -20,8 +21,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="96dp"
-                android:orientation="horizontal"
-                android:background="@color/icons">
+                android:background="@color/icons"
+                android:orientation="horizontal">
 
                 <TextView style="@style/contentAryStyle" />
 
@@ -36,7 +37,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:text="@string/content_artist"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
                 </LinearLayout>
 
 
@@ -44,13 +45,13 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+                android:layout_height="1dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="96dp"
-                android:orientation="horizontal"
-                android:background="@color/icons">
+                android:background="@color/icons"
+                android:orientation="horizontal">
 
                 <TextView style="@style/contentAryStyle" />
 
@@ -65,20 +66,21 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:text="@string/content_artist"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
                 </LinearLayout>
 
 
             </LinearLayout>
+
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+                android:layout_height="1dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="96dp"
-                android:orientation="horizontal"
-                android:background="@color/icons">
+                android:background="@color/icons"
+                android:orientation="horizontal">
 
                 <TextView style="@style/contentAryStyle" />
 
@@ -88,12 +90,12 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/artist_list3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:text="@string/content_artist"
-                        android:textStyle="bold"
-                        android:id="@+id/artist_list3" />
+                        android:textStyle="bold" />
                 </LinearLayout>
 
 
@@ -101,13 +103,13 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+                android:layout_height="1dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="96dp"
-                android:orientation="horizontal"
-                android:background="@color/icons">
+                android:background="@color/icons"
+                android:orientation="horizontal">
 
                 <TextView style="@style/contentAryStyle" />
 
@@ -117,12 +119,12 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/artist_list4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:text="@string/content_artist"
-                        android:textStyle="bold"
-                        android:id="@+id/artist_list4" />
+                        android:textStyle="bold" />
                 </LinearLayout>
 
 
@@ -130,13 +132,13 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+                android:layout_height="1dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="96dp"
-                android:orientation="horizontal"
-                android:background="@color/icons">
+                android:background="@color/icons"
+                android:orientation="horizontal">
 
                 <TextView style="@style/contentAryStyle" />
 
@@ -146,12 +148,12 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/artist_list5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:text="@string/content_artist"
-                        android:textStyle="bold"
-                        android:id="@+id/artist_list5" />
+                        android:textStyle="bold" />
                 </LinearLayout>
 
 
@@ -159,13 +161,13 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+                android:layout_height="1dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="96dp"
-                android:orientation="horizontal"
-                android:background="@color/icons">
+                android:background="@color/icons"
+                android:orientation="horizontal">
 
                 <TextView style="@style/contentAryStyle" />
 
@@ -175,12 +177,12 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/artist_list6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:text="@string/content_artist"
-                        android:textStyle="bold"
-                        android:id="@+id/artist_list6" />
+                        android:textStyle="bold" />
                 </LinearLayout>
 
 
@@ -188,13 +190,13 @@
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+                android:layout_height="1dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="96dp"
-                android:orientation="horizontal"
-                android:background="@color/icons">
+                android:background="@color/icons"
+                android:orientation="horizontal">
 
                 <TextView style="@style/contentAryStyle" />
 
@@ -209,7 +211,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:text="@string/content_artist"
-                        android:textStyle="bold"/>
+                        android:textStyle="bold" />
                 </LinearLayout>
 
 

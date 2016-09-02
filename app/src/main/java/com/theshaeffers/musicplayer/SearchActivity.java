@@ -13,6 +13,10 @@ public class SearchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
 
+        //OnclickListener for Search Button
+        //sets activity to SongsActivity
+        //ideally it would search from data retrieved with Content Resolver
+        //TODO Check Search Widget
         Button searchButton = (Button) findViewById(R.id.search_button);
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override

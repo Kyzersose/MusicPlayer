@@ -10,63 +10,74 @@
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/recent_example_1"
                 style="@style/listStyle"
-                android:text="@string/recent_activity_string"/>
+                android:text="@string/recent_activity_string" />
+
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+                android:layout_height="1dp" />
+
             <TextView
                 android:id="@+id/recent_example_2"
                 style="@style/listStyle"
-                android:text="@string/recent_activity_string"/>
+                android:text="@string/recent_activity_string" />
+
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+                android:layout_height="1dp" />
+
             <TextView
                 android:id="@+id/recent_example_3"
                 style="@style/listStyle"
-                android:text="@string/recent_activity_string"/>
+                android:text="@string/recent_activity_string" />
+
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+                android:layout_height="1dp" />
+
             <TextView
                 android:id="@+id/recent_example_4"
                 style="@style/listStyle"
-                android:text="@string/recent_activity_string"/>
+                android:text="@string/recent_activity_string" />
+
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+                android:layout_height="1dp" />
+
             <TextView
                 android:id="@+id/recent_example_5"
                 style="@style/listStyle"
-                android:text="@string/recent_activity_string"/>
+                android:text="@string/recent_activity_string" />
+
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+                android:layout_height="1dp" />
+
             <TextView
                 android:id="@+id/recent_example_6"
                 style="@style/listStyle"
-                android:text="@string/recent_activity_string"/>
+                android:text="@string/recent_activity_string" />
+
             <View
                 android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+                android:layout_height="1dp" />
+
             <TextView
                 android:id="@+id/recent_example_7"
                 style="@style/listStyle"
-                android:text="@string/recent_activity_string"/>
+                android:text="@string/recent_activity_string" />
 
         </LinearLayout>
-
-
-
 
 
     </ScrollView>
@@ -75,36 +86,42 @@
         android:layout_width="96dp"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <TextView
             android:id="@+id/artist_textview"
             style="@style/optionsStyle"
             android:background="@color/artists_color"
-            android:text="@string/artists_name"/>
+            android:text="@string/artists_name" />
+
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"/>
+            android:layout_height="1dp" />
+
         <TextView
             android:id="@+id/songs_textview"
             style="@style/optionsStyle"
             android:background="@color/songs_color"
-            android:text="@string/songs_name"/>
+            android:text="@string/songs_name" />
+
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"/>
+            android:layout_height="1dp" />
+
         <TextView
             android:id="@+id/playlists_textview"
             style="@style/optionsStyle"
             android:background="@color/playlists_color"
-            android:text="@string/playlists_name"/>
+            android:text="@string/playlists_name" />
+
         <View
             android:layout_width="match_parent"
-            android:layout_height="1dp"/>
+            android:layout_height="1dp" />
+
         <TextView
             android:id="@+id/search_textview"
             style="@style/optionsStyle"
-            android:text="@string/search_string"
             android:background="@color/recent_color"
-            />
+            android:text="@string/search_string" />
 
     </LinearLayout>
 

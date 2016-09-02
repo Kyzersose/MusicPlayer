@@ -10,17 +10,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:hint="@string/search_hint"
         android:inputType="textCapWords"
-        android:maxLength="50"
-        android:hint="Search for a Song, Artist, or Playlist"/>
+        android:maxLength="60" />
 
     <TextView
-        android:layout_above="@+id/search_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This will take the users input and search via data pulled from the Cursor Resolver. The results will be diplayed in a ListView."
-        android:textSize="24sp"
-        />
+        android:layout_above="@+id/search_button"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/search_explanation"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/search_button"

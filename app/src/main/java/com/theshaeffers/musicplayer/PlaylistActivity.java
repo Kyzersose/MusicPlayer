@@ -13,6 +13,8 @@ public class PlaylistActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_playlist);
 
+        //OnclickListeners for fake lists of playlists
+        //TODO check how to store data for app
         TextView playlistView1 = (TextView) findViewById(R.id.playlist_choice_view1);
         playlistView1.setOnClickListener(new View.OnClickListener() {
             @Override
